@@ -1,6 +1,5 @@
-.orangeh3
-{
- color: orange!important;
+.orangeh3 {
+    color: orange !important;
 }
 
 .cherta {
@@ -13,4 +12,16 @@
     margin-left: auto;
     margin-right: auto;
     width: 6em
+}
+
+.logo1 {
+    position: absolute;
+    margin: 5px 0 0 282px;
+    z-index: 100;
+}
+
+.menu {
+    position: absolute;
+    margin: 5px 0 0 1000px;
+    z-index: 100;
 }
