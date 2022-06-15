@@ -1,27 +1,171 @@
-.orangeh3 {
-    color: orange !important;
-}
-
-.cherta {
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em
-}
-
-.copyright {
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em
+nav {
+    width: 100%;
+    height: 65px;
+    background: #344051;
 }
 
 .logo1 {
-    position: absolute;
-    margin: 5px 0 0 282px;
-    z-index: 100;
+    padding-left: 388px;
+    float: left;
 }
 
 .menu {
-    position: absolute;
-    margin: 5px 0 0 1000px;
-    z-index: 100;
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: antiquewhite;
+    margin-right: 40px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title_container {
+    float: left;
+    margin: 432px 0 0 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title_container h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title_container h4 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title_container input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 15px;
+    padding: 0px 16px;
+    margin: 58px 14px 0 14px;
+
+}
+
+.about_me {
+    width: 100%;
+    height: 1px;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    margin: 110px 0 852px 0;
+}
+
+.cherta {
+    float: left;
+    border-bottom: 4px solid #d17700;
+    margin-bottom: 30px;
+    align-content: center;
+    padding: 0px 25px;
+    margin: 30px 925px;
+}
+
+.block1 p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 320px;
+}
+
+.block1 {
+    width: 100%;
+    /* height: 715px; */
+    background: url(../img/minboy.png)860px 100px no-repeat;
+}
+
+
+.block1 input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 15px;
+    padding: 0px 16px;
+    margin: 58px 14px 0 14px;
+}
+
+.skills {
+    width: 100%;
+    height: 100%;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    margin: 110px 0 852px 0;
+    background: url(../img/bg2.jpg) no-repeat;
+}
+
+.web {
+    margin: 145px 0 0 495px;
+    width: 230px;
+    font-size: 10px;
+}
+
+.web h3{
+    color: orange;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.development {
+    margin: -74px 0 0 790px;
+    width: 230px;
+    font-size: 10px;
+}
+
+.development h3{
+    color: orange;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ceo {
+    margin: -80px 0 0 1085px;
+    width: 230px;
+    font-size: 10px;
+}
+
+.ceo h3{
+    color: orange;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.marketing {
+    margin: -80px 0 0 1375px;
+    width: 230px;
+    font-size: 10px;
+}
+
+.marketing h3{
+    color: orange;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cases{
+    width: 100%;
+    height: 100%;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    margin: 110px 0 852px 0;
 }
